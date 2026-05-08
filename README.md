@@ -1,6 +1,6 @@
 # grid-painter-widget
 
-A minimal anywidget wrapping a standalone JavaScript visualisation library, used
+A minimal AnyWidget wrapping a standalone JavaScript visualization library, used
 as the companion example for the tutorial blog post.
 
 ## Quick start
@@ -8,10 +8,9 @@ as the companion example for the tutorial blog post.
 ```sh
 npm install
 npm run build          # → dist/index.js
-cp dist/index.js article/widget.mjs
 
-# Preview in MyST
-cd article && npx mystmd start
+# Preview in Cuvenote
+cd article && npx curvenote start
 ```
 
 ## Structure
@@ -28,3 +27,7 @@ article/
   index.md          ← MyST article using the widget
   myst.yml          ← MyST config
 ```
+
+## Example Article with Widget
+
+![](./example.png)

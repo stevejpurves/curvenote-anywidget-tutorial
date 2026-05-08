@@ -6,8 +6,9 @@
   "description": "Grid painter anywidget — tutorial example",
   "main": "dist/index.js",
   "scripts": {
-    "build": "esbuild src/index.js --bundle --format=esm --outfile=dist/index.js --loader:.css=text --minify",
-    "watch": "esbuild src/index.js --bundle --format=esm --outfile=dist/index.js --loader:.css=text --watch"
+    "build": "esbuild src/index.js --bundle --format=esm --outfile=dist/widget.mjs --loader:.css=text --minify",
+    "postbuild": "node scripts/sync-article.mjs",
+    "watch": "node scripts/watch.mjs"
   },
   "devDependencies": {
     "esbuild": "^0.25.0"
