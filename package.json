@@ -1,0 +1,15 @@
+{
+  "name": "grid-painter-widget",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Grid painter anywidget — tutorial example",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --format=esm --outfile=dist/index.js --loader:.css=text --minify",
+    "watch": "esbuild src/index.js --bundle --format=esm --outfile=dist/index.js --loader:.css=text --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}

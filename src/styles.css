@@ -1,0 +1,40 @@
+/* grid-painter-widget styles */
+
+.gpw-root {
+  font-family: system-ui, -apple-system, sans-serif;
+  padding: 12px;
+}
+
+.gpw-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.gpw-controls label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #444;
+}
+
+.gpw-controls select,
+.gpw-controls input[type="range"] {
+  font-size: 13px;
+  padding: 2px 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.gpw-controls select:focus,
+.gpw-controls input:focus {
+  outline: 2px solid #4a90d9;
+  outline-offset: 1px;
+}
+
+.gpw-grid-container {
+  display: flex;
+  justify-content: center;
+}
