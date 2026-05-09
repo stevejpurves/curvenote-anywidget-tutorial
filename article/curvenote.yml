@@ -1,0 +1,5 @@
+version: 1
+project:
+  title: Grid Painter Widget Demo
+site:
+    template: https://github.com/curvenote-themes/spa-preview/archive/refs/heads/main.zip
